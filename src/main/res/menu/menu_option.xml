@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/menu_sensus">
+        <item
+            android:title="Sensus Penduduk 2020"
+            android:enabled="false"
+            android:checkable="false"/>
+
+        <item
+            android:id="@+id/pendataan_keluarga"
+            android:title="Pendataan Keluarga"/>
+
+        <item
+            android:id="@+id/about_developer"
+            android:title="About Developer"/>
+
+        <item
+            android:id="@+id/button_logout"
+            android:title="Log Out"/>
+    </group>
+
+</menu>
