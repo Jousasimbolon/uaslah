@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="uts.nim11419048.uts11419048">
+    package="com.azhar.quizsqlite">
 
     <application
         android:allowBackup="true"
@@ -8,18 +8,15 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.UTS11419048">
-        <activity android:name=".SuccessActivity9048"></activity>
-        <activity android:name=".PendataanKeluargaActivity9048" />
-        <activity android:name=".BiodataActivity9048" />
-        <activity android:name=".LoginActivity9048">
+        android:theme="@style/AppTheme">
+        <activity android:name=".DashboardActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="student.nim11419048.uts11419048.daftarbpjsactivity" />
+        <activity android:name=".QuestionActivity" android:theme="@style/Theme.AppCompat.Light.DarkActionBar" android:parentActivityName=".DashboardActivity"/>
     </application>
 
 </manifest>
